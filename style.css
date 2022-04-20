@@ -1,10 +1,11 @@
   body{
       margin: 0;
+      background-color: #aeaeae;
   }
   
   nav{
       display: flex;
-      background-color: rgb(193, 206, 219);
+      background-color: gray;
       height: 7vh;
 
   }
@@ -41,35 +42,37 @@
     }
 
     .container {
-        background-color: rgb(223, 235, 230);
+        background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: center;
         align-items: center;
         height: 93vh;
 
 
+
     }
     .container section{
-        background-color: rgb(236, 230, 230);
+        background-color: rgb(185, 183, 183);
         width: 90%;
-        height: 70%;
+        height: 80%;
         display: flex;
+        border-radius: 15px;
     }
     .section-left h2{
         font-size: 50px;
     }
     .section-left p{
-        font-size: 20px;padding: 10px;text-align: justify; 
+        font-size: px;
+        padding: 10px;
+        text-align: justify; 
         }
     .section-left {
         flex: 70%;
-        background-color: #aeaeae;
         padding-left: 40px;
     }
 
     .section-left button{
-        background-color: black;
-        color: white; 
+        color: rgb(19, 18, 18); 
         border-radius: 10px;
         padding: 10px;
         font-display: center;
@@ -94,7 +97,7 @@
     }
     .section-right {
         flex: 30%;
-        background-color:#aeaeae;
+        background-color:rgb(185, 183, 183);
 
     }
     .section-right img{

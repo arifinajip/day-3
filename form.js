@@ -67,16 +67,14 @@ function submitData()  {
         return alert('message wajib di isi') 
     }
 
-    // let emailReceiver ='cacahandika@gmail.com'
+    let emailReceiver ='cacahandika@gmail.com'
 
     let a = document.createElement('a')
 
-    a.href = `mailto:${email}?subject=${subjek}&body= hallo my name is ${name} ${message} please call me ${phone}` //tadi ada yg salah disini
-   
+    a.href = `mailto:${email}?subject=${subjek}&body= hallo my name is ${name} ${message} please call me ${phone}` 
     a.click()
 
 
-    // disini juga
     let dataObject = {
         nama:name,
         email:email,
